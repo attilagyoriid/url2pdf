@@ -1,0 +1,34 @@
+{
+  "name": "url2pdf",
+  "version": "1.0.0",
+  "description": "Tool creating pdf on the given page determined by an url",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "test": "jest",
+    "doc": "jsdoc -d docs --configure jsconf.json index.js"
+  },
+  "keywords": [],
+  "author": "Attila Gyori",
+  "license": "ISC",
+  "dependencies": {
+    "capture-website": "^1.4.0",
+    "fs-extra": "^10.0.0",
+    "images-to-pdf": "^1.0.3",
+    "puppeteer": "^5.5.0",
+    "puppeteer-proxy": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.1",
+    "jsdoc": "^3.6.6",
+    "prettier": "^2.3.0"
+  }
+}
